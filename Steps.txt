@@ -1,0 +1,14 @@
+Após a instalação do projeto
+	-> acessar a pasta do projeto
+
+	(Autenticação)
+	--> composer require laravel/breeze --dev
+	--> php artisan breeze:install
+	
+	(Bootstrap)
+	-> composer require laravel/ui
+	--> php artisan ui bootstrap
+
+	Criar um layout e implementar o vite
+    	-> {{-- sass e javascript --}}
+    	--> @vite(['resources/sass/app.scss', 'resources/js/app.js'])
